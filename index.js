@@ -18,7 +18,7 @@ dotenv.config();
 //     console.log("Error: " + err);
 //   });
 
-const mongoUri = "mongodb://127.0.0.1:27017/dilpreet";
+const mongoUri = "mongodb+srv://himanshu32428:Ih8ZfwFCLLVC94T9@cluster0.n6caph3.mongodb.net/";
 
 mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
